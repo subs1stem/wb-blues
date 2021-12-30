@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install python3-dev
+apt install python3-dev libbluetooth-dev
 
 echo 'Creating service...'
 cp -u -r service/wb-blues.service /etc/systemd/system/

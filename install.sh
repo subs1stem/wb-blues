@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install gcc libffi-dev libssl-dev python3-dev libbluetooth-dev 
+apt install gcc libffi-dev libssl-dev python3-dev python3-venv libbluetooth-dev
 
 echo 'Creating service...'
 cp -u -r service/wb-blues.service /etc/systemd/system/
